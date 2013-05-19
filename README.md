@@ -5,9 +5,12 @@ An extremely quick hack clone of http://redpen.io as a
 
 ## Prerequisites
 
-You will need [Leiningen][1] 1.7.0 or above installed.
+You will need:
 
-[1]: https://github.com/technomancy/leiningen
+- Leiningen >= 1.7.0
+- MongoDB running on localhost:27017 (the default)
+
+Both can be had with one command via homebrew.
 
 ## Running
 
