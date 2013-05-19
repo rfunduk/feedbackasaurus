@@ -1,0 +1,41 @@
+@color: #444;
+@color-active: #444;
+@bg: lighten(#8ab531, 30%);
+@bg-active: lighten(@bg, 5%);
+@border: darken(#8ab531, 10%);
+@border-active: @border;
+@height: 2px;
+@height-active: 1px;
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-bottom-style: solid;
+  font-weight: bold;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 38px;
+  padding: 0 25px;
+
+  color: @color;
+  background: @bg;
+  border-bottom-width: @height;
+  border-bottom-color: @border;
+
+  &:hover {
+    background: @bg-active;
+  }
+  &:active {
+    color: @color-active;
+    background: @bg-active;
+    border-bottom-width: @height-active;
+    border-bottom-color: @border-active;
+  }
+}

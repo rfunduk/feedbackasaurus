@@ -1,0 +1,5 @@
+[
+  "./scripts/underscore.js"
+  "./scripts/jquery.js"
+  "./scripts/upload.coffee"
+]

@@ -1,0 +1,8 @@
+[
+  "./styles/skeleton.css"
+  "./styles/layout.less"
+  "./styles/buttons.less"
+  "./styles/session.less"
+  "./styles/uploads.less"
+  "./styles/show.less"
+]
