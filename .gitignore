@@ -1,7 +1,6 @@
 /target
 /lib
 /classes
-/checkouts
 pom.xml
 *.jar
 *.class
@@ -12,4 +11,3 @@ pom.xml
 .lein-repl-history
 resources/asset-cache/*
 resources/public/uploads/*
-
