@@ -17,7 +17,3 @@ Both can be had with one command via homebrew.
 To start a web server for the application, run:
 
     lein ring server
-
-## License
-
-[WTFPL](http://www.wtfpl.net/)
